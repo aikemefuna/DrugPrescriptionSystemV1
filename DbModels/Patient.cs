@@ -28,7 +28,12 @@ namespace DrugPrescriptionSystemVersion1.DbModels
         [Required]
         public string Dosage { get; set; }
 
+        public DateTime DateCreated { get; set; }
+
+        public DateTime DateUpdated { get; set; }
+
         public MedicalSpecialist MedicalSpecialist { get; set; }
+
 
 
     }
